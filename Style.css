@@ -1,0 +1,153 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background: rgb(149, 174, 255);
+  }
+  .container{
+    margin: auto;
+    width: 960px;
+    height: 650px;
+    padding: 5px;
+  }
+  
+  .text-input{
+    float: left;
+    margin-left: 10%;
+    margin-top: 10%;
+    color: #1375ec;
+    width: 80%;
+    height: 60%;
+    background: #F3F5FC;
+    outline: none;
+    border: none;
+    font-size: 20px;
+    text-align: center;
+  }
+  
+  .left{
+    float: left;
+    width: 70%;
+    height: 50%;
+    border-radius: 24px;
+  }
+  
+  .left-button{
+    float: left;
+    width: 70%;
+    height: auto;
+    border-radius: 24px;
+  }
+
+  #btn-encriptar{
+    padding: 24px;
+    width: 30%;
+    height: 60%;
+    background: #4e76e6;
+    font-size: 15px;
+    border-radius: 24px;
+    margin-left: 15%;
+    margin-top: 10px;
+  }
+
+  #btn-encriptar:hover {
+    color:rgb(251, 252, 250);
+    text-decoration: dashed;
+    border-color: rgb(251, 255, 0);
+    transform: scale(1.2);
+  }
+
+  #btn-desencriptar{
+    padding: 24px;
+    width: 30%;
+    height: 60%;
+    background: #49be12;
+    font-size: 15px;
+    border-radius: 24px;
+    margin-left: 10%;
+    margin-top: 10px;
+  }
+
+  #btn-desencriptar:hover {
+    color:rgb(251, 252, 250);
+    text-decoration: dashed;
+    border-color: rgb(251, 255, 0);
+    transform: scale(1.2);
+  }
+
+  p{
+    margin-left: 5%;
+  }
+
+  .right{
+    float: right;
+    text-align: center;
+    border-radius: 24px;
+    width: 30%;
+    height: 80%;
+  }
+  
+  #imgDer{
+    float: inherit;
+    margin-top: 1%;
+    margin-right: 5%;
+    width: auto;
+    height: auto;
+  }
+
+  #texto #texto2{
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  
+  #copiar{
+    margin-left: 33%;
+    margin-top: 90%;
+    display: none;
+    padding: 24px;
+    width: 35%;
+    height: 13%;
+    font-size: 15px;
+    background: rgb(205, 164, 50);
+    border-radius: 24px;
+  }
+
+  #copiar:hover {
+    color:rgb(251, 252, 250);
+    text-decoration: dashed;
+    border-color: rgb(251, 255, 0);
+    transform: scale(1.2);
+  }
+
+  .logoImg{
+    margin-top: 1%;
+    float: inherit;
+    margin-left: 5%;
+  }
+  .tittle{
+    float: inherit;
+    margin-left: 15%;
+    font-size: xx-large;
+  }
+  
+  #texto2{
+    float: left;
+    margin-left: 10%;
+    margin-top: 1%;
+    color: #1274eb;
+    width: 40%;
+    height: 30%;
+
+    outline: none;
+    border: none;
+  }
+  
+  h3{
+    text-align: center;
+  }
+
+  footer {
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    background-image: linear-gradient(105deg, rgb(0, 140, 255) 39%, rgb(51, 52, 57) 96%);
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=devide-width">
+    <title>Challenge 1 - Encriptador</title>
+    <link rel="stylesheet" href="reset.css">   
+    <link rel="stylesheet" href="Style.css">
+    
+    <script type="text/javascript" src="script.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="logo">
+        <img class="logoImg" src="img/Logo.png" alt="Logo de Alura">
+        <h1 class="tittle">ENCRIPTADOR DE MENSAJES</h1>
+        
+      </div>
+      <div class="left">
+          <input class="text-input" type="text" name="input-texto" id="inputtexto" placeholder="Ingrese el texto que desee Encriptar.">
+      </div>
+      <div class="right">
+        <img src="img/Muneco.png" id="imgDer" alt="Personaje">
+        <h1 id="texto">Ningún mensaje fue encontrado</h1>
+        <textarea id="texto2" style="width: 271px; height: 85px;">Ingresa el texto que desees encriptar o desenciptar.</textarea>
+        <button type="button" id="copiar" onclick="copia()">Copiar</button>
+      </div>
+      <div class="left-button">
+        <p> <center>SÓLO LETRA MINÚSCULAS Y SIN ACENTO.</center></p>
+        <button type="button" id="btn-encriptar" onclick="encriptar()">Encriptar</button>
+        <button type="button" id="btn-desencriptar" onclick="desencriptar()">Desencriptar</button>
+      </div>
+    </div>
+    
+    <footer>
+      <p> DESARROLLADO POR PEDRO BRAVO CASTILLO</p>
+      <p> &copy; Todos los Derechos Reservados</p>
+    </footer>
+  </body>
+</html>
